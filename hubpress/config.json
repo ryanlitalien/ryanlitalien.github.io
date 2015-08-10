@@ -4,7 +4,16 @@
     "repositoryName": "website",
     "branch": "gh-pages"
   },
+  "site": {
+    "title": "ryanlitalien.com",
+    "description": "Clever blog title",
+    "url": "//www.ryanlitalien.com"
+  },
+  "socialnetwork": {
+    "twitter": "ryanlitalien"
+  },
   "theme": {
-    "name": "Casper"
+    "name": "Casper",
+    "url": "//www.ryanlitalien.com/themes/Casper"
   }
 }
