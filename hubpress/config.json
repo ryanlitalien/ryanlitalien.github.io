@@ -7,13 +7,13 @@
   "site": {
     "title": "ryanlitalien.com",
     "description": "Clever blog title",
-    "url": "//www.ryanlitalien.com"
+    "url": "http://www.ryanlitalien.com"
   },
   "socialnetwork": {
     "twitter": "ryanlitalien"
   },
   "theme": {
     "name": "Casper",
-    "url": "//www.ryanlitalien.com/themes/Casper"
+    "url": "http://www.ryanlitalien.com/themes/Casper"
   }
 }
