@@ -1,4 +1,5 @@
 = This site was built with hubpress.io
+:hp-tags: Technology
 
 I needed a "quick", free and server-less blog with domain forwarding. I liked the http://jekyllrb.com/[Jekyll] static site generator, though there were too many caveats. The open source projet http://hubpress.io/[HubPress] seemed solid, fork a repo, change a config.json file and then good to go, right? Not so fast.
 
