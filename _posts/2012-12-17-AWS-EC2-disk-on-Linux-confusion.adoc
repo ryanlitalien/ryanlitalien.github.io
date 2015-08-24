@@ -1,6 +1,6 @@
 = AWS EC2 disk on Linux confusion
 :published_at: 2012-12-17
-:hp-tags: Technology
+:hp-tags: Technology, AWS
 
 After our instance store instance had issues, we converted it to an EBS store.  So according to the AWS documentation, you have to mount the partition to the filesystem.  The AWS docs are a bit heavy, so for a quick reference:
 
