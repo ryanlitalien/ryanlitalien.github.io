@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>LinkedIn/Facebook loading issue using jQuery Mobile</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="//www.ryanlitalien.com/themes/Casper/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//www.ryanlitalien.com/themes/Casper/assets/css/screen.css?v=1.0.0" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="http://www.ryanlitalien.com/2013/01/14/LinkedInFacebook-loading-issue-using-jQuery-Mobile.html" />
+    
+    <meta property="og:site_name" content="Ryan L&#x27;Italien" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="LinkedIn/Facebook loading issue using jQuery Mobile" />
+    <meta property="og:description" content="If you&amp;#8217;re trying to add LinkedIn/Facebook to your mobile site, and are using jQuery Mobile, you might get a 302 redirect error.  Similar to this: Completed 302 Found in 1084ms (ActiveRecord: 0.0ms) This error doesn&amp;#8217;..." />
+    <meta property="og:url" content="http://www.ryanlitalien.com/2013/01/14/LinkedInFacebook-loading-issue-using-jQuery-Mobile.html" />
+    <meta property="article:published_time" content="2013-01-14T05:00:00.000Z" />
+    <meta property="article:modified_time" content="2015-08-24T18:42:53.063Z" />
+    <meta property="article:tag" content="Technology" />
+    <meta property="article:tag" content="JQuery" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="LinkedIn/Facebook loading issue using jQuery Mobile" />
+    <meta name="twitter:description" content="If you&amp;#8217;re trying to add LinkedIn/Facebook to your mobile site, and are using jQuery Mobile, you might get a 302 redirect error.  Similar to this: Completed 302 Found in 1084ms (ActiveRecord: 0.0ms) This error doesn&amp;#8217;..." />
+    <meta name="twitter:url" content="http://www.ryanlitalien.com/2013/01/14/LinkedInFacebook-loading-issue-using-jQuery-Mobile.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Ryan L&#x27;Italien",
+    "author": {
+        "@type": "Person",
+        "name": "Ryan L'Italien",
+        "image": "https://avatars.githubusercontent.com/u/1479756?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "http://www.ryanlitalien.com"
+    },
+    "headline": "LinkedIn/Facebook loading issue using jQuery Mobile",
+    "url": "http://www.ryanlitalien.com/2013/01/14/LinkedInFacebook-loading-issue-using-jQuery-Mobile.html",
+    "datePublished": "2013-01-14T05:00:00.000Z",
+    "dateModified": "2015-08-24T18:42:53.063Z",
+    "keywords": "Technology,  JQuery",
+    "description": "If you&amp;#8217;re trying to add LinkedIn/Facebook to your mobile site, and are using jQuery Mobile, you might get a 302 redirect error.  Similar to this: Completed 302 Found in 1084ms (ActiveRecord: 0.0ms) This error doesn&amp;#8217;..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Ryan L&#x27;Italien" href="http://www.ryanlitalien.com/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+</head>
+<body class="post-template tag-Technology tag-JQuery">
+
+    
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="back-button icon-arrow-left" href="http://www.ryanlitalien.com">Home</a>
+        <!-- <a class="subscribe-button icon-feed" href="http://www.ryanlitalien.com/rss/">Subscribe</a> -->
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-Technology tag-JQuery">
+
+        <header class="post-header">
+            <h1 class="post-title">LinkedIn/Facebook loading issue using jQuery Mobile</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2013-01-14">14 January 2013</time>  on <a href="http://www.ryanlitalien.com/tag/Technology">Technology</a>, <a href="http://www.ryanlitalien.com/tag/JQuery"> JQuery</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <div class="paragraph">
+<p>If you&#8217;re trying to add LinkedIn/Facebook to your mobile site, and are using jQuery Mobile, you might get a 302 redirect error.  Similar to this:</p>
+</div>
+<div class="paragraph">
+<p><code>Completed 302 Found in 1084ms (ActiveRecord: 0.0ms)</code></p>
+</div>
+<div class="paragraph">
+<p>This error doesn&#8217;t help much.</p>
+</div>
+<div class="paragraph">
+<p>The problem is that jQuery Mobile is treating the link as an AJAX navigation request, though you don&#8217;t want that.</p>
+</div>
+<div class="paragraph">
+<p>All you have to do is place a <code>rel="external"</code>, <code>data-ajax="false"</code> or any <code>target</code> property in the link to disable AJAX navigation.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://jquerymobile.com/demos/1.1.0/docs/pages/page-links.html" class="bare">http://jquerymobile.com/demos/1.1.0/docs/pages/page-links.html</a></p>
+</div>
+<div class="paragraph">
+<p>Before:
+    <code>&lt;a href="http://api.linkedin&#8230;&#8203;"&gt;Login via LinkedIn&lt;/a&gt;</code></p>
+</div>
+<div class="paragraph">
+<p>After:
+    <code>&lt;a href="http://api.linkedin&#8230;&#8203;" rel="external"&gt;Login via LinkedIn&lt;/a&gt;</code></p>
+</div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="" style="background-image: url(https://avatars.githubusercontent.com/u/1479756?v=3)"><span class="hidden">Ryan L&#x27;Italien's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="">Ryan L&#x27;Italien</a></h4>
+
+                    <p>Read <a href="">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    <span class="author-link icon-link"><a href="http://www.ryanlitalien.com">http://www.ryanlitalien.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=LinkedIn%2FFacebook%20loading%20issue%20using%20jQuery%20Mobile&amp;url=http://www.ryanlitalien.com/2013/01/14/LinkedInFacebook-loading-issue-using-jQuery-Mobile.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://www.ryanlitalien.com/2013/01/14/LinkedInFacebook-loading-issue-using-jQuery-Mobile.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://www.ryanlitalien.com/2013/01/14/LinkedInFacebook-loading-issue-using-jQuery-Mobile.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+    </article>
+
+</main>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="http://www.ryanlitalien.com">Ryan L&#x27;Italien</a> &copy; 2015</section>
+        <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//www.ryanlitalien.com/themes/Casper/assets/js/jquery.fitvids.js?v=1.0.0"></script>
+    <script type="text/javascript" src="//www.ryanlitalien.com/themes/Casper/assets/js/index.js?v=1.0.0"></script>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66170723-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
