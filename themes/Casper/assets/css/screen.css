@@ -660,6 +660,7 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     color: #fff;
+    text-shadow: 1px 2px #000;
 }
 
 .page-description {
