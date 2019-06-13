@@ -1,9 +1,15 @@
-= Multi-line Ruby block in HAML
-:published_at: 2014-10-15
-:hp-tags: Technology, Ruby, HAML
+---
+layout: post
+title: Multi-line Ruby block in HAML
+published_at: 2014-10-15
+tags:
+  - Technology
+  - Ruby
+  - HAML
+---
 
 I always seem to forget the syntax for multi-line syntax in haml.  You can also use `:css`, `:javascript`
- 
+
     :ruby
       first_name = "Ryan"
       last_name = "L'Italien"

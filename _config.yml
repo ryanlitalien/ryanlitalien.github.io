@@ -14,13 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: ryanlitalien.com
+author: "Ryan L'Italien"
 #email: your-email@example.com
+logo: /assets/img/trail-running-medium-narrow.png
 description: >- # this means to ignore newlines until "baseurl:"
   Ryan L'Italien's blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.ryanlitalien.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ryanlitalien
 github_username:  ryanlitalien
+github: [metadata]
 
 # Build settings
 markdown: CommonMarkGhPages

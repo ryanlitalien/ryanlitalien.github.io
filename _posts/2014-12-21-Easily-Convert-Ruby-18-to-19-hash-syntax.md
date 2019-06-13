@@ -1,6 +1,11 @@
-= Easily Convert Ruby 1.8 to 1.9 hash syntax
-:published_at: 2014-12-21
-:hp-tags: Technology, Ruby
+---
+layout: post
+title: Easily Convert Ruby 1.8 to 1.9 hash syntax
+published_at: 2014-12-21
+tags:
+  - Technology
+  - Ruby
+---
 
 You can easily convert your 1.8 hash rockets into cleaner, easier to read 1.9 hash syntax with this little script.
 

@@ -1,8 +1,13 @@
-= Race Report: Ironman Mont-Tremblant 140.6
-:published_at: 2014-08-25
-:hp-tags: Triathlon, Race Report
+---
+layout: post
+title: "Race Report: Ironman Mont Tremblant 140.6"
+published_at: 2014-08-25
+tags:
+  - Race Report
+  - Triathlon
+---
 
-*Background*
+### Background
 
 I started a couch to 5k in 2012, with just generic training volume leading up to the Timberman sprint in August. Signed up for Peak Triathlon Coaching in 2013 and did the Pumpkinman 70.3 in Sept, which went very well (aimed for 5:30 and did a 5:28:28, awesomesauce). Since I have a 3 year old and a now 4 month old, I decided that now was the time for an Ironman. I really wanted to be involved in the kid's sports/scouts/coaching/etc, so that meant I could do it now or later when they get to high school. That's one thing that I did miss this season, was just being around as a Dad. (Lots of 5am workouts with one workout starting at 4am [Strava has proof]). So with just learning how to swim, bike and run in 2013, and solid coaching I figured the numbers would come to a 12 hour Ironman. Results at the bottom.
 
@@ -12,7 +17,7 @@ I stuck to my race and nutrition plans like glue, so if you want to know what I 
 image::swim-start.jpg[swim start image]
 ---
 
-*Race Day*
+### Race Day
 
 Since I had to eat my large, liquidish breakfast three hours and thirty minutes from my swim wave start time, I thought I could go back to sleep for an hour.  Not happening. I was so full that when I crawled back into bed, I couldn't lie on my side because my stomach hurt. The only way I could stay in bed was to sit Indian legged under the covers.  After about 30 minutes, I was able to lie down for another 20 minutes before having to get up at 4:15.
 
@@ -24,7 +29,7 @@ After peeing on the bike twice, I realized I couldn't empty 100%. So for the res
 
 For some reason, on the rolling hills of route 117, I was constantly getting passed by a peloton of bikers. Sometimes groups of five, but one group was easily fifteen. I didn't know pelotons were allowed in an Ironman. After a large group passed, I thought it was clear, so I let out a fart.  Nothing spectacular. A guy comes up on my left and said "Hey man, did you just fart on me?" I smiled and replied with "Yup, sorry bout that." "No problem, just wasn't expecting to be farted on today." I laughed, he smiled and kept riding on.
 
-When I'm running, I sometimes look at my wedding ring for inspiration and thoughts of my amazing family. I always take off my wedding ring when I'm swimming, either in the pool or open water and it's always off for races. This was a race worthy of having the ring on. So during the morning bike transition setup, I used electrical tape to wrap around my ring to my aero bar pads. So after the heart rate settled on Monte Ryan, I peeled back some tape and popped on my ring. Though, since it was 50 degrees and my fingers were sausages, I had to use my teeth to push the ring on (my other hand was steering). Didn't lose it in Lake Tremblant, didn't drop it on the bike, and had it for the run when things got rough. 
+When I'm running, I sometimes look at my wedding ring for inspiration and thoughts of my amazing family. I always take off my wedding ring when I'm swimming, either in the pool or open water and it's always off for races. This was a race worthy of having the ring on. So during the morning bike transition setup, I used electrical tape to wrap around my ring to my aero bar pads. So after the heart rate settled on Monte Ryan, I peeled back some tape and popped on my ring. Though, since it was 50 degrees and my fingers were sausages, I had to use my teeth to push the ring on (my other hand was steering). Didn't lose it in Lake Tremblant, didn't drop it on the bike, and had it for the run when things got rough.
 
 There was a girl with an air cast on her right leg during the marathon. Not sure how she swam or bike, but she was speed walking fairly well. Personally, it seemed like a bad idea to race with a bone that was still being set.  I fractured my right ankle in the winter of 2012-2013, which required a air cast boot, so I know how it feels. As I closed in on her, another female racer said "You go girl!". Pretty conflicted as what to think, tough or stupid? Still not sure.
 
@@ -49,7 +54,7 @@ Nailed nutrition and race plan
 
 Hopefully this race report shows you some things that you don't normally read or experience in smaller races. I'm extremely happy with how things turned out.  Here are my results:
 
-*Times*
+### Times
 
 Guestimate:
 
@@ -71,9 +76,10 @@ Total: 12:04:32
 
 Thank you to my wife, kids, family and friends for supporting me in this crazy adventure, it meant so much.
 
-PS. I just realized that in both my first 70.3 and first 140.6, I was only off my guesitmates by 1:32 and 4:32 respectively for a total of 6 minutes 4 seconds off actual race time. 
+PS. I just realized that in both my first 70.3 and first 140.6, I was only off my guesitmates by 1:32 and 4:32 respectively for a total of 6 minutes 4 seconds off actual race time.
 
 ```
-100-(((6*60+4)/((5*60*60)+28+(12*60*60)+32))*100) 
+100-(((6*60+4)/((5*60*60)+28+(12*60*60)+32))*100)
+
 = 99.40% accurate in estimating :)
 ```

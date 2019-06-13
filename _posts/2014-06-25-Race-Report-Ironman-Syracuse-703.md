@@ -1,6 +1,11 @@
-= Race Report: Ironman Syracuse 70.3
-:published_at: 2014-06-25
-:hp-tags: Race Report, Triathlon
+---
+layout: post
+title: "Race Report: Ironman Syracuse 70.3"
+published_at: 2014-06-25
+tags:
+  - Race Report
+  - Triathlon
+---
 
 Profiles. I looked up the profiles for both the run and bike of the Syracuse race and noticed pretty substantial climbs. I talked to a few people about their past experiences and they all mentioned the difficulty and "the hills."  Knowing that I was able to prep for the bike, the run not so much. That run course was s monster. Sorry Syracuse, just not in the cards in the future (the two kids were unbelievably awesome on the ride there. Side note, writing this from 35,000 feet on my tablet, heading to a conference in SFO. Hopefully they were good for my wife and mother in law!).
 
@@ -16,6 +21,6 @@ Brought my bike into transition, but there was another bike in my spot. Had to f
 
 Heading out into the run, I saw athletes that looked miserable, just plain beat. Didn't encourage, but it was my race. Kept my pace under control, as my running legs felt great. Unusual start, as I had to run through grassy fields and up bark mulch to the road. Ate the Cliff Bloks per schedule and perform every aid station. The hill(s) were monstrous. Almost every "runner" was walking up it. Prior to the race, I vowed to only walk 5-10 sec at an aid station to drink. I chugged up those hills as people cheered my name or "Northeast."  Tried to pick up the pace on the way down, but it was too steep and the knees felt a bit wobbly. (Strava said my grade adjusted pace was right at my goal of 9min/mile).  At around mile 10 the calves started getting tight from the hills. Pushed through and headed to the chute. Finished 7 minutes faster than the 6hr goal ( not a PR, as Pumpkinman was a lot less total elevation gain ).
 
-Amazing day, fantastic post race chocolate milk, awesome support from my wife, kids and mother-in-law and a well oiled race put on by Ironman. I probably won't do Syracuse again, but the future is untold! Used this race as training for the big daddy, pMont Tremblant 140.6 on August 17th!!
+Amazing day, fantastic post race chocolate milk, awesome support from my wife, kids and mother-in-law and a well oiled race put on by Ironman. I probably won't do Syracuse again, but the future is untold! Used this race as training for the big daddy, Mont Tremblant 140.6 on August 17th!!
 
 (Please excuse flow, wrote this on a plane and between sessions at a conference)
