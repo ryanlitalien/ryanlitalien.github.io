@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="mainheading">
   <h1 class="sitetitle"></h1>
   <p class="lead">
@@ -20,7 +21,7 @@ layout: default
         </a>
         <div class="card-block">
           <h2 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <h4 class="card-text">{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</h4>
+          <h4 class="card-text">{{ post.excerpt }}</h4>
           <div class="metafooter">
             <div class="wrapfooter">
               <span class="meta-footer-thumb">
