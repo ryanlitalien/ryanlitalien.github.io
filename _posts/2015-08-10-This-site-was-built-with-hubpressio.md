@@ -6,7 +6,7 @@ tags:
 image: /assets/img/demopic/10.jpg
 ---
 
-I needed a "quick", free and server-less blog with domain forwarding. I liked the [Jekyll](http://jekyllrb.com/) static site generator, though there were too many caveats. The open source projet http://hubpress.io/[HubPress] seemed solid, fork a repo, change a config.json file and then good to go, right? Not so fast.
+I needed a "quick", free and server-less blog with domain forwarding. I liked the [Jekyll](http://jekyllrb.com/) static site generator, though there were too many caveats. The open source project hubpress.io/ seemed solid, fork a repo, change a config.json file and then good to go, right? Not so fast.
 
 I ran into several problems, but mostly were my legacy problems. I had previously setup two blogs using [GitHub Pages](https://pages.github.com/). One of those projects had a `_config.yml` file that redirected to an old, unused and completely different domain. It also didn't help that I had several CNAME redirects setup in AWS Route 53. After deleting both old repos, removing A and CNAME records within AWS, we're good to go.
 
