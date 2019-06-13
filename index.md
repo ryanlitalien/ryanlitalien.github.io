@@ -1,14 +1,6 @@
 ---
 layout: default
 ---
-
-<div class="mainheading">
-  <h1 class="sitetitle"></h1>
-  <p class="lead">
-    "Sometimes you gotta run before you can walk" - Tony Stark
-  </p>
-</div>
-
 <section class="recent-posts">
   <div class="section-title">
     <h2><span>All Posts</span></h2>
