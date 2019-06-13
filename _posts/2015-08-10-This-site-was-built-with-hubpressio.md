@@ -10,7 +10,11 @@ I needed a "quick", free and server-less blog with domain forwarding. I liked th
 
 I ran into several problems, but mostly were my legacy problems. I had previously setup two blogs using [GitHub Pages](https://pages.github.com/). One of those projects had a `_config.yml` file that redirected to an old, unused and completely different domain. It also didn't help that I had several CNAME redirects setup in AWS Route 53. After deleting both old repos, removing A and CNAME records within AWS, we're good to go.
 
-Here's the configuration I ended up with: `https://github.com/ryanlitalien/website/blob/609b3cee892e104aedea71aabde16cd85ea4b63b/hubpress/config.json`
+Here's the configuration I ended up with:
+
+```
+https://github.com/ryanlitalien/website/blob/609b3cee892e104aedea71aabde16cd85ea4b63b/hubpress/config.json
+```
 
 I might open a pull request with the guys at HubPress to format the `config.json` with pretty print.
 

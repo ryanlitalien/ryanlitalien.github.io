@@ -13,9 +13,9 @@ I started a couch to 5k in 2012, with just generic training volume leading up to
 
 I stuck to my race and nutrition plans like glue, so if you want to know what I did, sign up for Peak Triathlon Coaching! A big thank you Colin and Leslie! This race report will be fun and interesting things that I experienced during my first Ironman.
 
----
+```
 image::swim-start.jpg[swim start image]
----
+```
 
 ### Race Day
 

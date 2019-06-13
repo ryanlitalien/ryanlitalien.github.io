@@ -11,15 +11,14 @@ I have an Ember application that I need to display some custom text.
 
 If you want to render raw html to the page, use a triple curly brace:
 
-{% raw %}
+```
 {{{customText}}}
-{% endraw %}
+```
 
 Normally it's only a double curly:
 
-{% raw %}
+```
 {{customText}}
-{% endraw %}
+```
 
-
-Source: http://handlebarsjs.com/
+Source: [http://handlebarsjs.com/](http://handlebarsjs.com/)
