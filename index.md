@@ -16,7 +16,7 @@ layout: default
     {% for post in site.posts %}
       <div class="card">
         <a href="{{ post.url }}">
-          <img class="img-fluid" src="/assets/img/demopic/5.jpg" alt="">
+          <img class="img-fluid" src="/assets/img/demopic/8.jpg" alt="">
         </a>
         <div class="card-block">
           <h2 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
