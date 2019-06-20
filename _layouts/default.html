@@ -1,68 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-  <meta content="{{site.description}}" name="description">
-  <meta content="{{site.author}}" name="author">
+{% include header.html %}
 
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-  <link href="/assets/img/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-  <link href="/assets/img/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-  <link href="/site.webmanifest" rel="manifest">
-
-  {% seo %}
-
-  <title>{{ site.title | default: site.github.repository_name }}</title>
-  <!-- Bootstrap core CSS -->
-  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Fonts -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="/assets/css/mediumish.css" rel="stylesheet">
-</head>
-<body>
-
-<!-- Begin Nav
-================================================== -->
-<nav class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
-  <button aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarsExampleDefault" data-toggle="collapse" type="button">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="container">
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="/">
-      <h1 class="sitetitle">{{ site.title }}</h1>
-    </a>
-    <!-- End Logo -->
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <!-- Begin Menu -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Stories <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/author.html">Author</a>
-        </li>
-      </ul>
-      <!-- End Menu -->
-      <!-- Begin Search -->
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" placeholder="Search" type="text">
-        <span class="search-icon"><svg class="svgIcon-use" height="25" viewbox="0 0 25 25" width="25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg></span>
-      </form>
-      <!-- End Search -->
-    </div>
-  </div>
-</nav>
-<!-- End Nav
-================================================== -->
-
-<div class="container">
   <div class="mainheading">
     <h1 class="sitetitle"></h1>
+    <p class="header-cover"></p>
     <p class="lead">
       "Sometimes you gotta run before you can walk" - Tony Stark
     </p>
@@ -70,40 +10,4 @@
 
   {{ content }}
 
-  <!-- Begin Footer
-  ================================================== -->
-  <div class="footer">
-    <p class="pull-left">
-      Copyright &copy; 2019 {{ site.title }}
-    </p>
-    <p class="pull-right">
-    </p>
-    <div class="clearfix">
-    </div>
-  </div>
-  <!-- End Footer
-  ================================================== -->
-</div>
-<!-- /.container -->
-
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery.min.js"></script>
-<script crossorigin="anonymous" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-<script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
-
-{% if site.google_analytics %}
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', '{{ site.google_analytics }}', 'auto');
-  ga('send', 'pageview');
-</script>
-{% endif %}
-
-</body>
-</html>
+{% include footer.html %}

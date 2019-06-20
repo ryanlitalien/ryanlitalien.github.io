@@ -10,7 +10,13 @@ layout: default
 				<div class="row post-top-meta authorpage">
 					<div class="col-md-10 col-xs-12">
 						<h1>Ryan</h1>
-            <span class="author-description">Founder of <a target="_blank" href="https://www.ryanlitalien.com">ryanlitalien.com</a>. Full stack developer doing everything from CSS -> SQL. You can reach me out on the social links below.</span>
+						<p>
+              <span class="author-description">Founder of <a href="https://www.ryanlitalien.com">ryanlitalien.com</a>. Full 
+                stack developer doing everything from CSS -> SQL.</span>
+            </p>
+            <p>
+              You can reach me out on the social links below.
+            </p>
             <a target="_blank" href="https://www.facebook.com/ryanlitalien" class="btn follow">Follow <i class="fa fa-facebook"></i></a>
             <a target="_blank" href="https://twitter.com/ryanlitalien" class="btn follow">Follow <i class="fa fa-twitter"></i></a>
             <a target="_blank" href="https://www.github.com/ryanlitalien" class="btn follow">Follow <i class="fa fa-github"></i></a>

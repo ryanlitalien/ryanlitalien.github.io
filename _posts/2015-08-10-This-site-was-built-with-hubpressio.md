@@ -1,6 +1,7 @@
 ---
 layout: post
 title: This site was built with hubpress.io
+published_at: 2019-06-12
 tags:
   - Technology
 image: /assets/img/demopic/10.jpg

@@ -8,9 +8,6 @@ layout: default
   <div class="card-columns listrecent">
     {% for post in site.posts %}
     <div class="card">
-      <a href="{{ post.url }}">
-        <img class="img-fluid" src="/assets/img/trail-running-medium-narrow.png" alt="">
-      </a>
       <div class="card-block">
         <h2 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <h4 class="card-text">{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</h4>
@@ -23,7 +20,7 @@ layout: default
             </span>
             <span class="author-meta">
             <span class="post-name"><a href="/author.html">Ryan</a></span><br/>
-            <span class="post-date">{{ page.date | date: '%B %d, %Y' }}</span><span class="dot"></span><span class="post-read">5 min read</span>
+            <span class="post-date">{{ post.published_at | date: '%B %d, %Y' }}</span><span class="dot"></span><span class="post-read">5 min read</span>
             </span>
             <span class="post-read-more">
               <a href="{{ post.url }}" title="Read Story">
